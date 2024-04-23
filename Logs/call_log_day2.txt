@@ -1,0 +1,1 @@
+57,2023-11-06 14:50:31.354561,{'Jane: What was the outcome of the meeting with the client?', 'Jane: Hi John!', 'John: They do not want the panel on the right anymore', 'John: Hello Jane', 'Jane: Okay.'}
