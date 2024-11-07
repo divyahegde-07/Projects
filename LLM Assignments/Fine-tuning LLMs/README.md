@@ -5,7 +5,7 @@
 
 This notebook intends to use the BART large model to summarize the samsum dataset. The SAMSum dataset contains about 16k messenger-like conversations with summaries.
 
-BART is a transformer encoder-encoder (seq2seq) model with a bidirectional (BERT-like) encoder and an autoregressive (GPT-like) decoder. BART is pre-trained by (1) corrupting text with an arbitrary noising function, and (2) learning a model to reconstruct the original text.
+BART is a transformer encoder-decoder (seq2seq) model with a bidirectional (BERT-like) encoder and an autoregressive (GPT-like) decoder. BART is pre-trained by (1) corrupting text with an arbitrary noising function, and (2) learning a model to reconstruct the original text.
 
 BART is a very large model with 406M parameters. Fine-tuning this model will be a very cumbersome process that would require a lot of resources and would be impossible without GPU resources. This makes fine-tuning infeasible.
 
